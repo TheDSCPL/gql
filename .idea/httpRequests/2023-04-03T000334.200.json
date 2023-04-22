@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "message": "user already exists",
+      "path": [
+        "createUser"
+      ]
+    }
+  ],
+  "data": {
+    "createUser": null
+  }
+}

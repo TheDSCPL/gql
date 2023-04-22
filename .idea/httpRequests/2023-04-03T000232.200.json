@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "message": "internal system error",
+      "path": [
+        "createUser"
+      ]
+    }
+  ],
+  "data": {
+    "createUser": null
+  }
+}

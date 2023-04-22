@@ -1,0 +1,33 @@
+POST localhost:8080/query
+Content-Type: application/json
+
+{
+  "query": "query GetTodos {\n  todos {\n\n  id\n  done\n  text\n}\n}"
+}
+
+
+###
+POST localhost:8080/query
+Content-Type: application/json
+
+{
+  "query": "mutation AddUser($user: NewUser!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}
+
+###
+POST localhost:8080/query
+Content-Type: application/json
+
+{
+  "query": "mutation AddTodo(todo: NewTodo!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}

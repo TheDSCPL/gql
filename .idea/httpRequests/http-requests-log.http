@@ -1,0 +1,110 @@
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 165
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "mutation AddUser($user: NewUser!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}
+
+<> 2023-04-03T000334.200.json
+
+###
+
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 165
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "mutation AddUser($user: NewUser!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}
+
+<> 2023-04-03T000331.200.json
+
+###
+
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 165
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "mutation AddUser($user: NewUser!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}
+
+<> 2023-04-03T000232.200.json
+
+###
+
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 165
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "mutation AddUser($user: NewUser!) {\n  createUser(input: $user) {\n  id\n  name\n}\n}",
+  "variables": {
+    "user": {
+      "name": "Luis"
+    }
+  }
+}
+
+<> 2023-04-02T235628.200.json
+
+###
+
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "query GetTodos {\n  todos {\n\n  id\n  done\n  text\n}\n}"
+}
+
+<> 2023-04-02T235135.200.json
+
+###
+
+POST http://localhost:8080/query
+Content-Type: application/json
+Content-Length: 74
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "query": "query GetTodos {\n  todos {\n\n  id\n  done\n  text\n}\n}"
+}
+
+<> 2023-04-02T234610.200.json
+
+###
+

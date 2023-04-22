@@ -1,0 +1,13 @@
+{
+  "errors": [
+    {
+      "message": "internal system error",
+      "path": [
+        "todos"
+      ]
+    }
+  ],
+  "data": {
+    "todos": null
+  }
+}
